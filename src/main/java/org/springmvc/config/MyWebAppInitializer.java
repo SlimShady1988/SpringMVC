@@ -7,6 +7,8 @@ import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 
 public class MyWebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+
     @Override
     protected String[] getServletMappings() {
         return new String[] {"/"};
